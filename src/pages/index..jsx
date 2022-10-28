@@ -2,7 +2,7 @@ import "../index.css";
 import Login from '../components/log-button';
 import Register from '../components/reg-button';
 import Input from '../components/input';
-import logo from '../assests/Logo@2x.png' ;
+import logo from '../assests/logo/Logo@2x.png' ;
 export default function Index(){
     return(
         <div className="wrapper">
