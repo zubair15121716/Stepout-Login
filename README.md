@@ -1,6 +1,6 @@
-<h3>Login: </h3>
+
 ![screencapture-localhost-3000-2022-10-28-03_04_37](https://user-images.githubusercontent.com/98003399/198567347-8de98f9d-4273-4555-896a-ac2899792126.png)
-<h3>Register: </h3>
+
 ![screencapture-localhost-3000-register-2022-11-05-08_09_31](https://user-images.githubusercontent.com/98003399/200126855-f91d938a-b563-4351-8819-4e426949a8f4.png)
 
 
