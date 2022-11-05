@@ -1,9 +1,10 @@
 import "../index.css";
-import Login from '../components/log-button';
-import Register from '../components/reg-button';
+import Loginbutton from '../components/log-button';
+import Registerbutton from '../components/reg-button';
 import Input from '../components/input';
 import logo from '../assests/logo/Logo@2x.png' ;
-export default function Index(){
+import { Link } from "react-router-dom";
+export default function Login(){
     return(
         <div className="wrapper">
             <div className="container">
@@ -20,11 +21,13 @@ export default function Index(){
                     </div>
                     <a href="javascript:void(0)" className="link-left">Forget Password?</a>
                 </div>
-                <Login />
+                <Loginbutton />
                 <hr />
                 <a href="javascript:void(0)" className="link-left">Don't have an account</a>
                 <br/>
-                <Register />
+                <Link to="/register">
+                    <Registerbutton />
+                </Link>
                 </form>
             </div>
         </div>

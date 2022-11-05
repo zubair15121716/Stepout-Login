@@ -18,6 +18,9 @@ body {
     max-width: 60%;
     
 }
+
+
+
 .reg{
   background-color:#bdbdbd;
   color:#000000;
@@ -35,8 +38,21 @@ body {
   width: 90%;
   border-radius: 12px;
   padding: 10px 20px;
+  font-size: medium;
 }
-
+input:focus{
+    background-color: rgb(221, 252, 241);
+    
+}
+.split-input{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.split-input Input{
+    width:40%;
+    
+}
 .wrapper{
   background-color: #0AC2CC;
   width: 100%;
@@ -71,16 +87,23 @@ form{
   border-radius: 20px;
   width:100%;
   padding: 30px 30px 60px 30px;
+  text-align: center;
 }
 .form-heading{
   color: #000000;
   font-size: 24px;
-  font-weight:10300;
-  
-  
+}
+.reg-heading{
+  color: #000000;
+  font-size: 24px;
+}
+.reg-sub-head{
+  color: #5f5e5e;
+  font-size: 10px;
+  font-weight:500;
 }
 .form-subheading{
-  color: #000000;
+  color: #5f5e5e;
   font-size: 10px;
   font-weight:500;
   
@@ -91,4 +114,22 @@ a{
   font-weight: 300;
   line-height:30px;
   text-decoration: none;
+}
+
+.reg-accept-container{
+  display:flex;
+  flex-direction: row;
+  align-content: left;
+  
+}
+.reg-accept-container .reg-form-control label{
+    margin-left: 07px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px){
+    .container{
+      margin: 0%;
+      width: 88vw;
+    }
 }

@@ -2,10 +2,10 @@ import "../index.css";
 
 
 
-function Login() {
+function Loginbutton() {
     return(
         <button className="log">Login</button>
     );
 }
 
-export default Login;
+export default Loginbutton;

@@ -2,10 +2,10 @@ import "../index.css";
 
 
 
-function Register() {
+function Registerbutton() {
     return(
         <button className="reg">Register</button>
     );
 }
 
-export default Register;
+export default Registerbutton;
