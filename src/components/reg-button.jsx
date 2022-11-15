@@ -2,10 +2,8 @@ import "../index.css";
 
 
 
-function Registerbutton() {
+export const Registerbutton=() => {
     return(
         <button className="reg">Register</button>
     );
 }
-
-export default Registerbutton;

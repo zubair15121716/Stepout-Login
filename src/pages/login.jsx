@@ -1,17 +1,16 @@
 import "../index.css";
-import Loginbutton from '../components/log-button';
-import Registerbutton from '../components/reg-button';
-import Input from '../components/input';
-import logo from '../assests/logo/Logo@2x.png' ;
+import { Input , Loginbutton , Registerbutton } from "../components";
+import logo from '../assests/logo/Logo.png' ;
 import { Link } from "react-router-dom";
-export default function Login(){
+
+export const Login = () => {
     return(
         <div className="wrapper">
             <div className="container">
                 <img src={logo} alt="logo" className="logo"></img>
                 <form>
-                <h1 className="form-heading"><b>Login To Your Account</b></h1>
-                <h6 className="form-subheading">Please Provide your Login Details</h6>
+                <div className="form-heading">Login To Your Account</div>
+                <div className="form-subheading">Please Provide your Login Details</div>
             <Input type="email" name="email" placeholder="Email" />
             <Input type="password" name="password" placeholder="Password"/>
                 <div className="remember-container">
@@ -23,7 +22,8 @@ export default function Login(){
                 </div>
                 <Loginbutton />
                 <hr />
-                <a href="javascript:void(0)" className="link-left">Don't have an account</a>
+                <a href="javascript:void(0)" className="link-left">Don't have an account?</a>
+                <br/>
                 <br/>
                 <Link to="/register">
                     <Registerbutton />

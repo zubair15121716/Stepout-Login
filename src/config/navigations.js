@@ -1,4 +1,6 @@
 export const navigations={
     LOGIN:"login",
-    Register:"register"
+    Register:"register",
+    SecureAccount: "secure-account",
+    about: "about"
 }

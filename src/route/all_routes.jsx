@@ -1,14 +1,15 @@
 import React from "react";
 import { Route , Routes as Router } from "react-router-dom";
-import Login from "../pages/login";
 import { navigations } from "../config";
-import Register from "../pages/register";
+import { SecureAccount , Login , Register , About} from "../pages";
 export const Routes = () => {
     return (
         <Router>
             <Route path="/" element={<Login/>}/>
             <Route path={navigations.LOGIN} element={<Login/>}/>
             <Route path={navigations.Register} element={<Register/>}/>
+            <Route path={navigations.SecureAccount} element={<SecureAccount/>}/>
+            <Route path={navigations.about} element={<About />}/>
         </Router>
     );
 }

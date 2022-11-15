@@ -1,11 +1,10 @@
 import React from "react";
-import Input from "../components/input";
-import Loginbutton from "../components/log-button";
-import Registerbutton from "../components/reg-button";
+import { Input , Button } from "../components";
 import "../index.css";
 import { Link } from "react-router-dom";
-import logo from '../assests/logo/Logo@2x.png' ;
-export default function Register(){
+import logo from '../assests/logo/Logo.png' ;
+
+export const Register = () => {
     return (
         <div className="wrapper">
             <div className="container">
@@ -24,14 +23,15 @@ export default function Register(){
                     <div className="reg-accept-container">
                         <div className="reg-form-control">
                             <input type="checkbox" id="Accept Terms&Conditions"></input>
-                            <label htmlFor="Accept Terms&Conditions">Aceept Terms&Conditions</label>
+                            <label htmlFor="Accept Terms&Conditions">Aceept Terms & Conditions</label>
                         </div>
                     </div>
-                    <Registerbutton />
+                    <Button children="Register"/>
                     <hr/>
-                    <h6> Already Have an Account ? </h6>
+                    <br/>
+                    <p> Already Have an Account ? </p>
                     <Link to="/login">
-                    <Loginbutton />
+                    <Button variant="outlined" children="Login" />
                     </Link>
                 </form>
             </div>

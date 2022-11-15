@@ -10,33 +10,33 @@ body {
 .log{
     background-color:#0AC2CC;
     color:#ffffff;
-    padding: 12px 110px;
+    padding: 11px 130px;
     border-radius: 100px;
     font-size:14px;
     border-color: #ffffff;
     border-style: solid;
-    max-width: 60%;
+    margin-bottom: 20px;
     
 }
 
 
 
 .reg{
-  background-color:#bdbdbd;
-  color:#000000;
-  padding: 12px 110px;
+  background-color:#ffffff;
+  color:#0AC2CC;
+  padding: 11px 130px;
   border-radius: 100px;
   font-size:14px;
-  border-color: #ffffff;
+  border-color: #0AC2CC;
   border-style: solid;
-  max-width: 60%;
+  border-width: 1px;
 }
 
 .input{
   border: 1px solid black ;
   margin-bottom: 12px;
   width: 90%;
-  border-radius: 12px;
+  border-radius: 36px;
   padding: 10px 20px;
   font-size: medium;
 }
@@ -50,7 +50,7 @@ input:focus{
   
 }
 .split-input Input{
-    width:40%;
+    width:33%;
     
 }
 .wrapper{
@@ -63,13 +63,14 @@ input:focus{
 }
 
 img{
-  margin-bottom: 30px;
+  margin-bottom: 45px;
   
 }
 .remember-container{
   display:flex;
   justify-content: space-around;
   align-content: center;
+  margin-bottom: 20px;
 }
 .remember-container input{
   
@@ -85,13 +86,14 @@ img{
 form{
   background-color: #ffffff;
   border-radius: 20px;
-  width:100%;
+  width:97%;
   padding: 30px 30px 60px 30px;
   text-align: center;
 }
 .form-heading{
   color: #000000;
   font-size: 24px;
+  margin-bottom: 6px;
 }
 .reg-heading{
   color: #000000;
@@ -99,19 +101,20 @@ form{
 }
 .reg-sub-head{
   color: #5f5e5e;
-  font-size: 10px;
+  font-size: 12px;
   font-weight:500;
+  margin-top: 5px;
 }
 .form-subheading{
   color: #5f5e5e;
-  font-size: 10px;
+  font-size: 12px;
   font-weight:500;
-  
+  margin-bottom: 30px;
 }
 a{
   color: #000000;
-  font-size: 10px;
-  font-weight: 300;
+  font-size: 12px;
+  font-weight: 400;
   line-height:30px;
   text-decoration: none;
 }
@@ -120,6 +123,7 @@ a{
   display:flex;
   flex-direction: row;
   align-content: left;
+  margin-bottom: 30px;
   
 }
 .reg-accept-container .reg-form-control label{
@@ -132,4 +136,52 @@ a{
       margin: 0%;
       width: 88vw;
     }
+}
+
+.chip input[type="checkbox"]{
+  display: none;
+}
+.chip input[type="checkbox"] + label{
+    transition: all 50ms ease;
+    border-radius: 23px;
+    line-height: 15px;
+    font-size: 12px;
+    color:#ffffff;
+    background-color:#cac8c8 ;
+    padding: 5px 10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.chip input[type="checkbox"]:checked + label{
+    background-color: #0AC2CC;
+    transition: all 50ms ease;
+}
+
+.align-left{
+  text-align: left;
+}
+
+
+.chip-holder{
+  display: flex;
+  margin-bottom: 25px;
+}
+.chip-holder .chip{
+  margin-left: 10px;
+}
+
+.sec-sub-heading{
+  color: #5f5e5e;
+  font-size: 12px;
+  font-weight:500;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+.sec-heading{
+  color: #000000;
+  font-size: 24px; 
+}
+.Nextbutton{
+  margin-top: 30px;
 }
