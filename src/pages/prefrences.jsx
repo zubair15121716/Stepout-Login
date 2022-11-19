@@ -58,7 +58,7 @@ export const Preferences = () => {
                     </div>
                 </div>
                 <div>
-                    <p className="align-left">Resturants</p>
+                    <p className="align-left">Restaurants</p>
                     <div className="chip-holder">
                         <Chip label="Select All" id="see" name="seemore1"/>
                         <Chip label="Chinese" id="Student" name="Student" />
