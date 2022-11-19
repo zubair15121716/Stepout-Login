@@ -1,5 +1,14 @@
+## Login Page
+![Login](https://user-images.githubusercontent.com/98003399/201823043-912a5ba5-59ac-471b-aad6-d0b285c03486.png)
+## Register
+![Register](https://user-images.githubusercontent.com/98003399/201823063-5485fa31-8b06-4df6-939e-f6f85af707c9.png)
+## Confirm Your Passwrod Page
+![Secure Account](https://user-images.githubusercontent.com/98003399/201823097-23e4de97-ab33-4938-93cb-bad79256781d.png)
+## Select Your Preference
+![Preference](https://user-images.githubusercontent.com/98003399/201823129-3df2f2cd-515c-4974-8c98-af07b0474489.png)
 
-![screencapture-localhost-3000-2022-10-28-03_04_37](https://user-images.githubusercontent.com/98003399/198567347-8de98f9d-4273-4555-896a-ac2899792126.png)
+## Current Desktop Look
+![screencapture-localhost-3000-about-2022-11-15-08_46_15](https://user-images.githubusercontent.com/98003399/201823527-a3730ebb-8f54-4e51-8717-956f4f9b6244.png)
 
 
 ## Available Scripts
