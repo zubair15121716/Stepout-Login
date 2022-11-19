@@ -10,6 +10,12 @@
 ## Current Desktop Look
 ![screencapture-localhost-3000-about-2022-11-15-08_46_15](https://user-images.githubusercontent.com/98003399/201823527-a3730ebb-8f54-4e51-8717-956f4f9b6244.png)
 
+## Forgot Password Page
+![image](https://user-images.githubusercontent.com/98003399/202870952-4b43c743-d6ca-4774-968c-d3c6037ee09e.png)
+
+##Preferences Page
+![image](https://user-images.githubusercontent.com/98003399/202870984-fc4b1030-6efa-4400-a91b-c505125ee52d.png)
+
 
 ## Available Scripts
 
