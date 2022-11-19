@@ -16,6 +16,7 @@ body {
     border-color: #ffffff;
     border-style: solid;
     margin-bottom: 20px;
+    cursor: pointer;
     
 }
 
@@ -30,10 +31,11 @@ body {
   border-color: #0AC2CC;
   border-style: solid;
   border-width: 1px;
+  cursor: pointer;
 }
 
 .input{
-  border: 1px solid black ;
+  border: 1px solid rgba(0, 0, 0, 0.557) ;
   margin-bottom: 12px;
   width: 90%;
   border-radius: 36px;
@@ -141,13 +143,24 @@ a{
 .chip input[type="checkbox"]{
   display: none;
 }
+.chip input[name*="see"] + label{
+    transition: all 50ms ease;
+    border-radius: 23px;
+    line-height: 15px;
+    font-size: 12px;
+    color:#0AC2CC !important;
+    background-color:#f3f3f3 !important;
+    padding: 5px 10px;
+    user-select: none;
+    cursor: pointer;
+}
 .chip input[type="checkbox"] + label{
     transition: all 50ms ease;
     border-radius: 23px;
     line-height: 15px;
     font-size: 12px;
     color:#ffffff;
-    background-color:#cac8c8 ;
+    background-color:#d4d1d1;
     padding: 5px 10px;
     user-select: none;
     cursor: pointer;
@@ -166,9 +179,11 @@ a{
 .chip-holder{
   display: flex;
   margin-bottom: 25px;
+  flex-wrap: wrap;
 }
 .chip-holder .chip{
   margin-left: 10px;
+  margin-top: 15px;
 }
 
 .sec-sub-heading{
@@ -184,4 +199,11 @@ a{
 }
 .Nextbutton{
   margin-top: 30px;
+}
+
+.success-modal_img{
+  margin:20px auto;
+  width:75px;
+  height: 75px;
+  border-radius: 50%;
 }

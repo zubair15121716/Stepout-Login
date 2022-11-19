@@ -2,5 +2,7 @@ export const navigations={
     LOGIN:"login",
     Register:"register",
     SecureAccount: "secure-account",
-    about: "about"
+    about: "about",
+    preferences:"preferences",
+    forgotpassword:"forgotpassword"
 }

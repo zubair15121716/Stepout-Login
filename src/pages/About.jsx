@@ -1,7 +1,7 @@
 import "../index.css";
 import { Chip , Button } from "../components";
 import logo from '../assests/logo/Logo.png' ;
-
+import { Link } from "react-router-dom";
 
 export const About = () => {
     return(
@@ -28,7 +28,9 @@ export const About = () => {
                     </div>
                 </div>
                 <br/>
+                <Link to="/preferences">
                 <Button children="Submit(2/3)"/>
+                </Link>
                 </form>
             </div>
         </div>

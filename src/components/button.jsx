@@ -2,9 +2,9 @@ import "../index.css";
 
 
 
-export const Button = ({variant ,children}) => {
+export const Button = ({variant ,children,type}) => {
     return(
-        <button className={variant=== "outlined" ? "reg" : "log"}>{children}</button>
+        <button className={variant=== "outlined" ? "reg" : "log"} type={type}>{children}</button>
     );
 }
 
