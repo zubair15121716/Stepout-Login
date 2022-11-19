@@ -1,8 +1,6 @@
 import "../index.css";
 import { Chip , Button } from "../components";
 import logo from '../assests/logo/Logo.png' ;
-import { Link } from "react-router-dom";
-import { navigations } from "../config/navigations";
 import { SuccessModal } from "../components/success-modal";
 import { images } from "../config/images";
 import { useState } from "react";
