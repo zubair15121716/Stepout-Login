@@ -77,7 +77,7 @@ export const Preferences = () => {
                     </div>
                 </div>
                 <br/>
-                    <Button children="Submit(2/3)" type="submit"/>
+                    <Button children="Submit(3/3)" type="submit"/>
                 </form>
                 <SuccessModal label="All Done!" message="Your account has been successfully registered. You can now proceed a trip or a reservation for your date." icon={images.checkMark} open={showModal}
                 closeModal={closeModal}/> 
